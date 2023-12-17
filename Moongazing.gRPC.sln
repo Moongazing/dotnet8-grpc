@@ -5,13 +5,14 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basics", "Basics", "{721150E7-0326-466B-A66C-3B96AC970DE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Client", "Basics\Moongazing.Client\Moongazing.Client.csproj", "{E4E4C63D-52EF-49E6-B904-8726AA15BCAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moongazing.Client", "Basics\Moongazing.Client\Moongazing.Client.csproj", "{E4E4C63D-52EF-49E6-B904-8726AA15BCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Server", "Basics\Moongazing.Server\Moongazing.Server.csproj", "{909243CF-DB1F-458E-9661-4CD4FD4BBC16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moongazing.Server", "Basics\Moongazing.Server\Moongazing.Server.csproj", "{909243CF-DB1F-458E-9661-4CD4FD4BBC16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{DE699816-94A9-42B4-937E-FBC1673CEC23}"
 	ProjectSection(SolutionItems) = preProject
 		Basics\protos\hello.proto = Basics\protos\hello.proto
+		Basics\protos\people.proto = Basics\protos\people.proto
 	EndProjectSection
 EndProject
 Global

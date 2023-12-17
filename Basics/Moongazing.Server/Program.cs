@@ -1,16 +1,18 @@
 ﻿using Grpc.Core;
-using Moongazing.Server.Services;
+
+
+new ServerDbContext().Database.EnsureCreated();
 
 Server server = new Server()
 {
 
     Ports =
     {
-        new ServerPort("localhost", 7777, ServerCredentials.Insecure)
+        new ServerPort("localhost", 5099, ServerCredentials.Insecure)
     },
     Services =
     {
-       HelloService.BindService(new HelloServiceImpl())
+       PeopleService.BindService(new  PeopleServiceImp())
     }
 };
 
