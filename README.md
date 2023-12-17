@@ -13,7 +13,7 @@ Begin by cloning the repository to your local machine:
 
 bash
 
-git clone https://github.com/Moongazing/Moongazing-dotnet8-grpc.git
+git clone https://github.com/Moongazing/dotnet8-grpc.git
 
 Project Structure
 
