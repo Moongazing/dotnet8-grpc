@@ -27,6 +27,10 @@
     <Folder Include="gRPC_Objects\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Moongazing.Client\Moongazing.Client.csproj" />
+  </ItemGroup>
+
 
 
 </Project>

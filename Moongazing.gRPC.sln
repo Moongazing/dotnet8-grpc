@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Server", "Basics
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{DE699816-94A9-42B4-937E-FBC1673CEC23}"
 	ProjectSection(SolutionItems) = preProject
-		hello.proto = hello.proto
+		Basics\protos\hello.proto = Basics\protos\hello.proto
 	EndProjectSection
 EndProject
 Global

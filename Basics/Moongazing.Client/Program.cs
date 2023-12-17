@@ -8,6 +8,16 @@ try
 {
     await channel.ConnectAsync();
     Console.WriteLine("Channel connected with server.");
+
+    var client = new HelloService.HelloServiceClient(channel);
+    var response = client.WelcomeAsync(new HelloRequest()
+    {
+        FirstName = "Tunahan Ali",
+        LastName = "Ozturk"
+    });
+
+    var result = await response.ResponseAsync;
+    Console.WriteLine(result.Message);
     Console.ReadLine();
 }
 catch (Exception ex)

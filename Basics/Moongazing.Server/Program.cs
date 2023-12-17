@@ -1,4 +1,5 @@
 ﻿using Grpc.Core;
+using Moongazing.Server.Services;
 
 Server server = new Server()
 {
@@ -9,7 +10,7 @@ Server server = new Server()
     },
     Services =
     {
-
+       HelloService.BindService(new HelloServiceImpl())
     }
 };
 
